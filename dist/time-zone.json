@@ -1,0 +1,22 @@
+[
+  {
+    "country": "希蠟 雅典",
+    "tz": "Europe/Athens",
+    "flag": "ath.png"
+  },
+  {
+    "country": "葡萄牙 里斯本",
+    "tz": "Europe/Lisbon",
+    "flag": "lis.png"
+  },
+  {
+    "country": "西班牙 馬德里",
+    "tz": "Europe/Madrid",
+    "flag": "mad.png"
+  },
+  {
+    "country": "台灣 台北",
+    "tz": "Asia/Taipei",
+    "flag": "tw.png"
+  }
+]

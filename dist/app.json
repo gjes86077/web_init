@@ -1,0 +1,17 @@
+[
+  {
+    "tz": "America/Los_Angeles",
+    "country": "India",
+    "flag": "del.png"
+  },
+  {
+    "tz": "Asia/Taipei",
+    "flag": "del.png",
+    "country": "Taiwan"
+  },
+  {
+    "tz": "Europe/Berlin",
+    "flag": "del.png",
+    "country": "Germany"
+  }
+]
