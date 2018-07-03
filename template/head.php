@@ -2,6 +2,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="shortcut icon" href="images/FAVCION.png" type="image/png">
   <link rel="stylesheet" href="dist/style/normalize.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap-grid.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' />
@@ -11,7 +12,8 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css">
   <link rel="stylesheet" href="dist/style/owl.carousel.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css'/>
   <!-- Custom Style -->
+  <link rel="stylesheet" href="dist/style/fontello.css">
   <link rel="stylesheet" href="dist/style/style.min.css">
-
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' />

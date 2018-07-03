@@ -16,26 +16,26 @@
       </div>
       <ul class="cate_list row">
         <!-- 這一個 -->
-        <li class="col-lg-1-5">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-sm-6   col-xs-6 col-xs-6">
           <div class="active">統領旅行社統領旅行社統領旅行社</div>
         </li>
         <!-- 用這個 -->
-        <li class="col-lg-1-5">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6">
           <div>統領旅行社</div>
         </li>
-        <li class="col-lg-1-5">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6">
           <div>統領旅行社</div>
         </li>
-        <li class="col-lg-1-5">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6">
           <div>統領旅行社</div>
         </li>
-        <li class="col-lg-1-5">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6">
           <div>統領旅行社</div>
         </li>
-        <li class="col-lg-1-5">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6">
           <div>統領旅行社</div>
         </li>
-        <li class="col-lg-1-5">
+        <li class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6">
           <div>統領旅行社</div>
         </li>
       </ul>
@@ -43,7 +43,7 @@
         <!-- 從這邊 -->
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>
@@ -55,7 +55,7 @@
         <!-- 到這邊 -->
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>
@@ -66,7 +66,7 @@
         </li>
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>
@@ -77,7 +77,7 @@
         </li>
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>
@@ -88,7 +88,7 @@
         </li>
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>
@@ -99,7 +99,7 @@
         </li>
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>
@@ -110,7 +110,7 @@
         </li>
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>
@@ -121,7 +121,7 @@
         </li>
         <li class=" col-md-3 col-sm-6 col-xs-12">
           <div>
-            <a href="javacript:;">
+            <a href="detail.php">
               <img src="images/proxy_temp.jpg" alt="">
             </a>
             <h4>統領旅行社－藍景航空 Blue Panorama Airlines</h4>

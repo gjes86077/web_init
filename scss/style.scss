@@ -7,13 +7,17 @@ $dark-blue:#063084;
 $light-blue:#6A83B8;
 $pink:#e86273;
 $jhen-hei: Arial,
-"微軟正黑體";
+"microsoft jhenghei";
 a,
 a:visited,
 a:focus,
 a:active {
   color: #fff;
   text-decoration: none;
+}
+
+.owl-item {
+  display: inline-block;
 }
 
 .btn-primary {
@@ -87,7 +91,8 @@ h2,
 h3,
 h4,
 h5,
-p {
+p,
+a {
   padding: 0;
   margin: 0;
   font-family: $jhen-hei;
@@ -264,16 +269,17 @@ footer {
   padding: 15px;
   color: #fff;
   ul {
-    @include ulfz0(14px);
+    @include ulfz0(12px);
+    margin-top: 2px;
     li {
-      border-right: solid 1px #fff;
-      padding: 0 5px;
+      border-right: solid 1px #245494;
+      padding: 0 10px;
       &:last-child {
         border-right: none;
       }
     }
   }
-  .col-sm:last-child {
+  .col-lg:last-child {
     text-align: right;
     font-size: 16px;
   }
@@ -361,6 +367,12 @@ main#index {
     background: rgba(255, 255, 255, .6);
     padding-top: 50px;
     padding-bottom: 50px;
+    .col-md-4 {
+      border-right: solid 1px #fff;
+      &:last-child {
+        border-right: none;
+      }
+    }
     p {
       padding: 0;
       margin: 0;
@@ -371,6 +383,7 @@ main#index {
       margin-left: 10px;
     }
     .v {
+      @include vertical();
       text-align: center;
       padding: 15px;
     }
@@ -379,6 +392,9 @@ main#index {
   #content_btm {
     .row:last-child {
       padding-top: 85px;
+      &:after {
+        content: url(../../images/white-plane.png);
+      }
     }
     .vertical_middle {
       @include vertical;
@@ -412,7 +428,7 @@ main#index {
         top: -20%;
         right: 0;
       }
-      iframe {
+      >iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -424,6 +440,25 @@ main#index {
   .brands_list {
     padding-top: 60px;
     position: relative;
+    .owl-nav {
+      display: none;
+    }
+    .owl-dots {
+      text-align: center;
+      .owl-dot {
+        background: $dark-blue;
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        border: solid 1px $dark-blue;
+        display: inline-block;
+        margin: 6px;
+        &:hover,
+        &.active {
+          background: #ffffff;
+        }
+      }
+    }
     h3 {
       font-size: 20px;
       color: $dark-blue;
@@ -458,6 +493,7 @@ main#index {
     color: $dark-blue;
     border: $dark-blue solid 2px;
     font-family: $jhen-hei, serif;
+    display: block;
     max-width: 550px;
     text-align: center;
     margin: 150px auto;
@@ -478,6 +514,7 @@ main#index {
     &:hover {
       margin-top: 145px;
       box-shadow: #063084 10px 17px 0;
+      text-decoration-line: none;
     }
   }
   .banner {
@@ -555,7 +592,7 @@ main#index {
         }
         .country {
           text-align: left;
-          padding-left: 10px
+          padding-left: 10px;
         }
         .time {
           font-size: 40px;
@@ -575,7 +612,6 @@ main#index {
       .owl-item {
         display: inline-block;
         text-align: center;
-        .item {}
       }
     }
   }
@@ -594,7 +630,7 @@ main#about {
       font-weight: bold;
       text-align: center;
       font-size: 40px;
-      text-shadow: -2px 0px 3px rgba(0, 0, 0, .8);
+      text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
       color: #fff;
     }
   }
@@ -632,6 +668,7 @@ main#about {
         content: url(../..//images/hr2.png);
         margin-top: 50px;
         display: block;
+        text-align: right;
       }
     }
   }
@@ -648,6 +685,7 @@ main#proxy {
         border: $dark-blue solid .5px;
         border-radius: 5px;
         padding: 20px 15px 10px 15px;
+        background: #ffffff;
         img {
           width: 100%;
           margin-bottom: 15px;
@@ -675,7 +713,6 @@ main#news {
   @include normal();
   .news_list {
     @include ulfz0(14px);
-    time {}
     li {
       border-radius: 5px;
       border: solid .5px $light-blue;
@@ -684,6 +721,7 @@ main#news {
       display: flex;
       position: relative;
       margin-bottom: 25px;
+      background: #fff;
       .desc {
         max-height: 6em;
         overflow: hidden;
@@ -708,7 +746,7 @@ main#news {
       img {
         width: 100%;
         border: solid 10px #fff;
-        box-shadow: rgba(0, 0, 0, .2) 6px 6px 10px;
+        box-shadow: rgba(6, 48, 132, .4) 3px 3px 16px;
       }
       time {
         color: $dark-blue;
@@ -752,6 +790,7 @@ main#detail {
       }
       p {
         margin-bottom: 10px;
+        line-height: 26px;
       }
     }
   }
@@ -818,7 +857,7 @@ main#contact {
       color: $dark-blue;
       .icon {
         float: left;
-        font-size: 60px;
+        font-size: 50px;
         margin-right: 20px;
       }
       .info {
@@ -831,10 +870,18 @@ main#contact {
     }
     #send {
       margin-right: 50px;
-      margin-top: -50px;
+      margin-top: 0px;
+      display: block;
+      float: left;
     }
     .captcha {
-      display: inline-block;
+      display: block;
+      float: left;
+      padding: 3px;
+      margin-bottom: 15px;
+      &:after {
+        clear: both;
+      }
     }
   }
 }
@@ -854,10 +901,42 @@ main#contact {
   }
 }
 
-@media (max-width: $lg) {}
+@media (max-width: $lg) {
+  footer {
+    .cr {
+      text-align: center;
+    }
+  }
+  header #menu .menu {
+    li {
+      transform: none;
+      display: block;
+      width: 100%;
+      a {
+        transform: none; // background: 
+      }
+    }
+  }
+  main#about {
+    .content {
+      .left {
+        padding-right: 15px;
+      }
+      .right {
+        padding-left: 15px;
+      }
+    }
+  }
+}
 
 @media (max-width: $md) {
   main#contact {
+    .col-md-4:first-child {
+      .icon {
+        padding-left: 12px;
+        padding-right: 8px
+      }
+    }
     .fgroup {
       padding-top: 15px;
     }
@@ -872,7 +951,12 @@ main#contact {
   main#about {
     .content {
       margin: 30px;
-      .left,
+      padding-top: 30px;
+      margin-top: 0px;
+      .left {
+        padding: 0;
+        padding-bottom: 25px;
+      }
       .right {
         padding: 0;
         margin-top: 30px;
@@ -881,10 +965,31 @@ main#contact {
   }
   main#index {
     .btns {
-      margin: 30px;
+      margin: 30px auto;
+    }
+    #content_btm {
+      .vertical_middle {
+        p,
+        h4 {
+          padding: 0;
+          padding-top: 15px;
+          text-align: left;
+        }
+      }
     }
     #info {
-      margin-top: 50px;
+      margin-top: 0px;
+      padding-top: 15px;
+      .img-left,
+      .contact {
+        float: none;
+        margin-left: 0px;
+        margin-top: 15px;
+      }
+      .v {
+        text-align: left;
+        padding: 15px;
+      }
     }
     .banner .banner_btm {
       position: relative;
@@ -922,8 +1027,38 @@ main#contact {
 }
 
 @media (max-width: $sm) {
+  main#news {
+    .news_list {
+      padding: 15px;
+      li {
+        width: inherit;
+        padding: 10px;
+        >.col-sm-9 {
+          padding-top: 10px;
+        }
+      }
+    }
+  }
   main#index .banner .banner_btm h3 {
     font-size: 30px;
+  }
+  footer {
+    margin-bottom: 45px;
+  }
+  #social {
+    display: flex;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    top: auto;
+    .social-list {
+      display: flex;
+      width: 100%;
+      li {
+        flex: 1;
+      }
+    }
   }
 }
 

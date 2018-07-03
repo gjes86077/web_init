@@ -1,14 +1,16 @@
   <header>
     <div>
-      <div class="container">這邊放搜尋框</div>
+      <div class="container">
+      <a href=""><i class="fa fa-youtube-play"></i></a> 這邊放搜尋框
+    </div>
     </div>
     <nav class="navbar navbar-expand-lg ">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
           <img src="images/logo.png" alt="">
         </a>
         <div class="navbar-toggler collapsed" data-toggle="collapse" data-target="#menu">
-          <span class="fa fa-list"></span>
+          <span class="fontello icon-menu"></span>
         </div>
         <div class="navbar-collapse collapse" id="menu">
           <ul class="navbar-nav ml-auto menu navbar-right">

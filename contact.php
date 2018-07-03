@@ -37,27 +37,27 @@
         <!-- 聯絡電話 -->
         <div class="col-md-4">
           <div class="icon">
-            <i class="fa fa-phone"></i>
+            <i class="fontello icon-phone_o"></i>
           </div>
           <div class="info">
             <div class="com">
               統領
             </div>
             <div class="mail">
-              sales-servise@adminaadmin.com.tw
+              02-2509-2471 #820/821/822/823
             </div>
             <div class="com">
               統利
             </div>
             <div class="mail">
-              sales-servise@adminaadmin.com.tw
+              02-2509-2471 #880/881/882/883
             </div>
           </div>
         </div>
         <!-- 地址 -->
         <div class="col-md-4">
           <div class="icon">
-            <i class="fa fa-warning"></i>
+            <i class="fontello icon-map_o"></i>
           </div>
           <div class="info">
             104 台北市南京東路二段137號8樓
@@ -98,7 +98,9 @@
               <input type="hidden" id="response">
             </div>
           </div>
-          <div id="send" class="btn btn-primary">傳送</div>
+          <div id="send">
+            <div class="btn btn-primary">Send</div>
+          </div>
           <div class='captcha'>
             <div id="my-widget"></div>
           </div>
